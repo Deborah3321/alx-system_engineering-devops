@@ -1,2 +1,2 @@
 #!/bin/bash
-pg /ect/passwd
+less /ect/passwd
