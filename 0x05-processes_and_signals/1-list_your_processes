@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2009
-# This is a script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process
+# This script displays list of currently running processes
+# Must show all processes, for all users, including those which might not have a TTY
+# Display a user-oriented format
+# Show process hierarchy
 
-ps -auxf | grep bash
+ps -a -x -u -f
