@@ -40,8 +40,8 @@ frontend deborah3321-tech-frontend
 
 backend deborah3321-tech-backend
     balance roundrobin
-    server 427349-web-01 100.25.134.187 check
-    server 427349-web-02 75.101.194.174 check
+    server 427349-web-01 100.25.134.187:80 check
+    server 427349-web-02 75.101.194.174:80 check
 "
 
 # shellcheck disable=SC2154
